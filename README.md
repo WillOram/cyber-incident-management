@@ -132,15 +132,27 @@ If triggered:
 
 1. No clear or suitable incident management structures 
 
+    Structures are formed ad-hoc, teams fail to interoperate, existing businesses structures are used 
+
 2. Lack of "operational rhythm" and programme management 
+
+    Response is not as quick as leadership desires, delays in recognising a crisis, lack of accountability and action tracking
 
 3. No clear strategy and objectives driving response efforts
 
+    Response is tactical not strategic, conflicting priorities/strategies, reactive decision making
+
 4. Poor communication and collaboration
 
-5. Lack of leadership and accountability 
+    Disjoined uses of tooling, conflicting terminology, poor interoperability and missed/delayed escalations 
+
+5. Lack of leadership and accountability
+
+    Unclear chains of command, blurred lines of responsibility, fragmented teams, lack of trust reduces collaboration
 
 6. No clear understanding of the facts which matter 
+
+    Risks and issues are missed, leadership inundated with noise, remediation efforts repeatedly fail
 
 ## Key response documents
 
