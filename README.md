@@ -38,7 +38,7 @@
 
 10. Provide necessary follow-up
 
-## Key questions to ask
+## Gaining situational awareness
 
 1. What has happened? 
 
@@ -60,7 +60,7 @@
 
 10. What is your plan if the incident escalates? (and how will you identify this?)
 
-## Red line or watch out criteria 
+## Building a watch out criteria 
 
 1. Attacker finds a previously unidentified route into the environment
 
@@ -78,7 +78,17 @@
 
 8. Attacker carries out activity indicating potential destructive intentions
 
-## Key investigative questions 
+If triggered: 
+
+1.  Who should this be communicated to?
+
+2.  How should this be communicated to them?
+
+3.  How should this first be verified? 
+
+4.  Should this be written or verbal at first?
+
+## Focusing on key investigative questions 
 
 1. When was the window of compromise?
 
@@ -109,7 +119,7 @@
 | Impact Assessment            | Monitoring and Hunting       | Remediation Planning   | Finance and Admin |
 |                              | Remediation and Recovery     |                        |                   |
 
-## Key issues 
+## Key issues managing and coordinating response efforts
 
 1. No clear or suitable incident management structures 
 
@@ -123,23 +133,27 @@
 
 6. No clear understanding of the facts which matter 
 
-## Key documents
+## Key response documents
 
-1. Incident Action Plan
+1. Incident action plan
 
-2. Ways of Working
+2. Ways of working
 
-3. Red Line / Watch Out Criteria 
+3. Red line / watch out criteria 
 
-4. Immediate Priorities Checklist 
+4. Immediate priorities checklist 
 
-5. Incident Timeline
+5. Incident timeline
 
-6. Remediation Plan
+6. Remediation plan
 
-7. Risks, Actions, Issues, Decisions Tracker
+7. Risks, actions, issues, decisions tracker
 
-8. Status Updates 
+8. Investigation tracker 
+
+9. Stakeholder mapping 
+
+10. Evidence tracker 
 
 ## Key areas of the environment 
 
@@ -152,7 +166,7 @@
 * Identity
 * Data
 
-## Key logs
+## Key logs to consider 
 
 * Server and workstation operating system logs
 * Authentication logs (e.g. login, remote access, VPN)
@@ -160,7 +174,7 @@
 * Network logs (e.g. web proxy logs, firewall logs, NetFlow)
 * Security Tool logs (e.g. EDR, anti-virus, mail filtering logs)
 
-## Immediate Priority Checklist 
+## Immediate priority checklist 
 
 1. Senior management are being briefed on the incident, risks and issues
 
@@ -183,4 +197,19 @@
 * Organisational and technical capability / capacity to respond 
 * Investigative findings so far, including knowledge of the adversary
 
+## Action plan
 
+1. What do we want to do? Priorities, objectives and strategy
+2. Who is responsible for doing it? Roles and responsibilities 
+3. How do we communicate with each other? Daily rhythm and tempo
+4. What is the procedure if the incident escalates? 
+5. What are the expectations of team members working on the response? 
+6. How will decisions be made? 
+
+## Remediation goals
+
+Increasing the cost to the attacker of achieving their objectives, including:
+
+1. Remove attacker's access to the environment
+2. Limit the attacker's ability to regain access to the environment
+3. Limit the ability of the attacker to operate within the environment and achieve their objectivities
