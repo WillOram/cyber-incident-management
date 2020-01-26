@@ -23,6 +23,8 @@
 
 3. Who is in charge? 
 
+Organisations time and time again struggle to clearly answer these questions during major cyber incidnets. 
+
 ## Top priorities when arriving at an incident 
 
 1. Understand organisational priorities
@@ -93,7 +95,7 @@ If triggered:
 
 3.  How should this first be verified? 
 
-4.  Should this be written or verbal at first?
+4.  Should this communication be written or verbal in the first instance?
 
 ## Focusing on key investigative questions 
 
