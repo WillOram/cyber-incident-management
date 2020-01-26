@@ -221,10 +221,15 @@ If triggered:
 ## Action plan
 
 1. What do we want to do? Priorities, objectives and strategy
+
 2. Who is responsible for doing it? Roles and responsibilities 
+
 3. How do we communicate with each other? Daily rhythm and tempo
+
 4. What is the procedure if the incident escalates? 
+
 5. What are the expectations of team members working on the response? 
+
 6. How will decisions be made? 
 
 ## Remediation goals
@@ -232,5 +237,7 @@ If triggered:
 Increasing the cost to the attacker of achieving their objectives, including:
 
 1. Remove attacker's access to the environment
+
 2. Limit the attacker's ability to regain access to the environment
+
 3. Limit the ability of the attacker to operate within the environment and achieve their objectivities
