@@ -60,6 +60,46 @@
 
 10. What is your plan if the incident escalates? (and how will you identify this?)
 
+## Red line or watch out criteria 
+
+1. Attacker finds a previously unidentified route into the environment
+
+2. Attacker moves towards sensitive or personal data
+
+3. Attacker compresses or stages files
+
+4. Attacker accesses internet facing servers
+
+5. Attacker gains domain administrator privileges 
+
+6. Attacker gains access to a domain controller
+
+7. Attacker adds or edits users in Active Directory
+
+8. Attacker carries out activity indicating potential destructive intentions
+
+## Key investigative questions 
+
+1. When was the window of compromise?
+
+2. How did the attacker initially gain access to the environment?
+
+3. What systems did the attacker access and/or compromise?
+
+4. How did the attacker access and/or compromise these systems?
+
+5. What accounts did the attacker compromise?
+
+6. What activity was carried out by the attacker within the environment?
+
+7. What data did the attacker access and how did the attacker do this?
+
+8. What evidence is there of data ex-filtration?
+
+9. Does the attacker still have access to the environment?
+
+10. Has the attack concluded?
+
 ## Delivering the technical response to an incident 
 
 | Investigation / Intelligence | Operations                   | Planning               | Logistics / PMO   |
@@ -83,25 +123,7 @@
 
 6. No clear understanding of the facts which matter 
 
-## Red Line or Watch Out Criteria 
-
-1. Attacker finds a previously unidentified route into the environment
-
-2. Attacker moves towards sensitive or personal data
-
-3. Attacker compresses or stages files
-
-4. Attacker accesses internet facing servers
-
-5. Attacker gains domain administrator privileges 
-
-6. Attacker gains access to a domain controller
-
-7. Attacker adds or edits users in Active Directory
-
-8. Attacker carries out activity indicating potential destructive intentions
-
-## Key Documents
+## Key documents
 
 1. Incident Action Plan
 
@@ -118,5 +140,38 @@
 7. Risks, Actions, Issues, Decisions Tracker
 
 8. Status Updates 
+
+## Key areas of the environment 
+
+* Workstations
+* Email and Web 
+* Servers
+* Cloud
+* Networks / Data centers
+* Applications
+* Identity
+* Data
+
+## Key logs
+
+* Server and workstation operating system logs
+* Authentication logs (e.g. login, remote access, VPN)
+* Application logs (e.g. web logs, database logs)
+* Network logs (e.g. web proxy logs, firewall logs, NetFlow)
+* Security Tool logs (e.g. EDR, anti-virus, mail filtering logs)
+
+## Immediate Priority Checklist 
+
+1. Senior management are being briefed on the incident, risks and issues
+
+2. Action is being taken to mitigate any unacceptable risks to the business 
+
+3. Evidence is being collected and preserved
+
+4. Legal & regulatory obligations are being assessed
+
+4. Gaps in technical visibility have been identified and are being resolved 
+
+5. Incident response and crisis management plans have been initiated
 
 
