@@ -174,4 +174,13 @@
 
 5. Incident response and crisis management plans have been initiated
 
+## Considering response strategy
+
+* Priorities and objectives
+* Risks and issues 
+* Understanding of the environment
+* Visibility of the environment 
+* Organisational and technical capability / capacity to respond 
+* Investigative findings so far, including knowledge of the adversary
+
 
