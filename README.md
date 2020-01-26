@@ -1,12 +1,19 @@
 # Managing major cyber incidents 
 
-[Basics of incident management](#basics-of-incident-management)  
-[Top priorities when arriving at an incident](#top-priorities-when-arriving-at-an-incident)  
-[Key questions to ask](#key-questions-to-ask)  
-[Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)  
-[Key issues](#key-issues)  
-[Red Line or Watch Out Criteria](#red-line-or-watch-out-criteria)  
-[Key Documents](#key-documents)  
+[Basics of incident management](#basics-of-incident-management)
+[Top priorities when arriving at an incident](#top-priorities-when-arriving-at-an-incident)
+[Gaining situational awareness](#gaining-situational-awareness)
+[Building a watch out criteria](#building-a-watch-out-criteria)
+[Focusing on key investigative questions](#focusing-on-key-investigative-questions)
+[Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)
+[Key issues managing and coordinating response efforts](#key-issues-managing-and-coordinating-response-efforts)
+[Key response documents](#key-response-documents)
+[Key areas of the environment](#key-areas-of-the-environment)
+[Key logs to consider](#key-logs-to-consider)
+[Immediate priority checklist](#immediate-priority-checklist)
+[Considering response strategy](#considering-response-strategy)
+[Action plan](#action-plan)
+[Remediation goals](#remediation-goals)
 
 ## Basics of incident management
 
