@@ -23,7 +23,7 @@
 
 3. Who is in charge? 
 
-Organisations time and time again struggle to clearly answer these questions during major cyber incidnets. 
+Organisations time and time again struggle to clearly answer these questions during major cyber incidents. 
 
 ## Top priorities when arriving at an incident 
 
@@ -240,4 +240,4 @@ Increasing the cost to the attacker of achieving their objectives, including:
 
 2. Limit the attacker's ability to regain access to the environment
 
-3. Limit the ability of the attacker to operate within the environment and achieve their objectivities
+3. Limit the ability of the attacker to operate within the environment and achieve their objectives
