@@ -241,3 +241,29 @@ Increasing the cost to the attacker of achieving their objectives, including:
 2. Limit the attacker's ability to regain access to the environment
 
 3. Limit the ability of the attacker to operate within the environment and achieve their objectives
+
+## Communicating on data breaches 
+
+Key messages to deliver: 
+
+* Care and concern (about those affected)
+
+* Control (of the situation)
+
+* Commitment (to resolving the problem)
+
+Key questions to answer: 
+
+1. What happened?
+
+2. What will the impact be on customers? 
+
+3. How do you feel about it?
+
+4. What are you doing about it?
+
+5. When are you going to provide your next update? 
+
+(6. What actions can customers take to reduce the risk of adverse impact)
+
+
