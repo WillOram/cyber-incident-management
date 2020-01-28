@@ -14,6 +14,7 @@
 [Considering response strategy](#considering-response-strategy)  
 [Action plan](#action-plan)  
 [Remediation goals](#remediation-goals)  
+[Communicating on data breaches](#Communicating-on-data-breaches)  
 
 ## Basics of incident management
 
@@ -264,6 +265,6 @@ Key questions to answer:
 
 5. When are you going to provide your next update? 
 
-(6. What actions can customers take to reduce the risk of adverse impact)
+6. What actions can customers take to reduce the risk to themselves? 
 
 
