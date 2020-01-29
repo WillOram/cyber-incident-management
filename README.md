@@ -3,8 +3,8 @@
 [Basics of incident management](#basics-of-incident-management)  
 [Top priorities when arriving at an incident](#top-priorities-when-arriving-at-an-incident)  
 [Gaining situational awareness](#gaining-situational-awareness)  
-[Building a watch out criteria](#building-a-watch-out-criteria)  
 [Focusing on key investigative questions](#focusing-on-key-investigative-questions)  
+[Building a watch out criteria](#building-a-watch-out-criteria)  
 [Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)  
 [Key issues managing and coordinating response efforts](#key-issues-managing-and-coordinating-response-efforts)  
 [Key response documents](#key-response-documents)  
@@ -54,21 +54,51 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 2. How have you responded? 
 
-3. Have you considered the legal and regulatory implications? 
+3. What is unknown at this point?  
 
-4. Have senior leadership been briefed? 
+4. Have you considered the legal and regulatory implications?  
 
-5. Who have you notified? 
+5. Have senior leadership been briefed? 
 
-6. What are you concerned about? (risks / issues)
+6. Who has been notified?  
 
-7. What are your priorities? 
+7. What are you concerned about? (risks / issues)
 
-8. What is your plan? 
+8. What are your priorities? 
 
-9. Who is in charge? 
+9. What is your plan? 
 
-10. What is your plan if the incident escalates? (and how will you identify this?)
+10. Who is in charge? 
+
+11. Have you thought about how the incident could esclate?  
+
+11. What is your plan if the incident escalates? (and how will you identify this?)
+
+13. Do you have a reactive press statement prepared?  
+
+12. Are you in a crisis? 
+
+## Focusing on key investigative questions 
+
+1. When was the window of compromise?
+
+2. How did the attacker initially gain access to the environment?
+
+3. What systems did the attacker access and/or compromise?
+
+4. How did the attacker access and/or compromise these systems?
+
+5. What accounts did the attacker compromise?
+
+6. What activity was carried out by the attacker within the environment?
+
+7. What data did the attacker access and how did the attacker do this?
+
+8. What evidence is there of data ex-filtration?
+
+9. Does the attacker still have access to the environment?
+
+10. Has the attack concluded?
 
 ## Building a watch out criteria 
 
@@ -97,28 +127,6 @@ If triggered:
 3.  How should this first be verified? 
 
 4.  Should this communication be written or verbal in the first instance?
-
-## Focusing on key investigative questions 
-
-1. When was the window of compromise?
-
-2. How did the attacker initially gain access to the environment?
-
-3. What systems did the attacker access and/or compromise?
-
-4. How did the attacker access and/or compromise these systems?
-
-5. What accounts did the attacker compromise?
-
-6. What activity was carried out by the attacker within the environment?
-
-7. What data did the attacker access and how did the attacker do this?
-
-8. What evidence is there of data ex-filtration?
-
-9. Does the attacker still have access to the environment?
-
-10. Has the attack concluded?
 
 ## Delivering the technical response to an incident 
 
@@ -265,6 +273,6 @@ Key questions to answer:
 
 5. When are you going to provide your next update? 
 
-6. What actions can customers take to reduce the risk to themselves? 
+6. What steps customers can take to protect themselves? 
 
 
