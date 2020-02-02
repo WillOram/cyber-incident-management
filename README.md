@@ -18,6 +18,7 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 ## Building a response strategy 
 
 [The basics of a response strategy](#the-basics-of-a-response-strategy)  
+[Building workstreams](#building-workstreams)  
 [Focusing on key investigative questions](#focusing-on-key-investigative-questions)  
 [Remediation goals](#remediation-goals)  
 [Focusing on the attacker](#Focusing-on-the-attacker)  
@@ -26,9 +27,10 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 
 ## Delivering the response 
 
-[Action plan](#action-plan)  
-[Building a watch out criteria](#building-a-watch-out-criteria)  
-[Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)  
+[Building an action plan](#building-an-action-plan)  
+[Driving forward delivery](#driving-forward-delivery)
+[Defining a watch out criteria](#defining-a-watch-out-criteria)  
+[Delivering the response to an incident](#delivering-the-technical-response-to-an-incident)  
 [Key response documents](#key-response-documents)  
 [Communicating on data breaches](#Communicating-on-data-breaches)  
 
@@ -134,11 +136,17 @@ For each:
 
 * What do you have? 
 
-* What capabilities do you have to prevent attackers? 
+* What capabilities do you have to prevent attackers? Coverage, features, constraints, limitations 
 
-* What capabilities do you have to detect attackers? 
+* What capabilities do you have to detect attackers? Coverage, features, constraints, limitations  
 
 * What people and processes do you have to support this? 
+
+Other questions:
+
+* How quickly can new tech be deployed? (e.g. endpoint detection and response agents) 
+
+* Who are the key contacts/SMEs?
 
 ## Key logs to consider 
 
@@ -172,7 +180,7 @@ For each:
 
 Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
 
-"How" we are going to respond, organising activities into workstreams.
+"How" we are going to respond, organising activities into workstreams. 
 
 Considering:
 
@@ -187,6 +195,25 @@ Considering:
 * Organisational and technical capability / capacity to respond 
 
 * Investigative findings so far, including knowledge of the adversary
+
+## Building workstreams
+
+Work streams should map to objectives / strategies, not aligned pre-existing business units / organisational hierarchies. 
+
+Each work streams should have a lead responsible and accountable for the work stream's activities. 
+
+Where possible the team working on a work streams should work and sit together.
+
+Need to ensure response efforts have the capacity and speed to scale to the size of the incident.
+
+Example work streams for the strategic organization-wide response
+* Communications
+* Legal
+* IT Operations
+* Technical Incident Management
+* Business Operations
+* Strategic Improvements
+* Finance / Administration
 
 ## Focusing on key investigative questions 
 
@@ -276,7 +303,7 @@ Failure to fully identify and understand all attacker access to the environment 
     
 # Delivering the response  
 
-## Action plan
+## Building an action plan
 
 1. What do we want to do? Priorities and objectives
 
@@ -292,7 +319,27 @@ Failure to fully identify and understand all attacker access to the environment 
 
 6. How will decisions be made? 
 
-## Building a watch out criteria 
+## Driving forward delivery 
+
+* Break the organisation out of a business as usual mindset - removing pre-existing structures, expectations and assumptions
+
+* Build and follow a planning process 
+
+* Group tactical and tasks into workstreams with leads
+
+* Communicate strategy and plans, roles and responsibilities to all involved 
+
+* Track and hold teams to account to deliver on actions 
+
+* Get teams to report on the delivery and effectiveness of plans in measurable ways
+
+* Run effective meetings with defined outcomes
+
+* Ensure situational awareness and document 
+
+* Track risks and issues 
+
+## Defining a watch out criteria 
 
 1. Attacker finds a previously unidentified route into the environment
 
@@ -326,7 +373,34 @@ If triggered:
 
 7. How is the organisation building an increased state of readiness? 
 
-## Delivering the technical response to an incident 
+## Delivering the response to an incident 
+
+Responding to a significant cyber security incident requires not only a technical response but a highly integrated strategic organization-wide response.
+
+#### Crisis Management Team (CMT)
+
+* Manages and coordinates the organization-wide response to the incident.
+* Sets the response objectives, priorities and strategies.
+* Has overall responsibility for all response activities.
+* Secures support from the wider organization including from senior management.
+* Leads with an example of the culture required to successfully navigate through the crisis.
+
+Needs to be tightly integrated with the technical response.
+
+#### Strategy Advisory Group (SAG)
+
+* Propose priorities and strategies to resolve the incident 
+* Consist of cyber security leadership, external advisors and legal
+* Consider technical risks and issues 
+
+#### Incident Management Team (IMT)
+
+* Delivers the technical response to the incident
+* Uses the inter-operable / modular FEMA Incident Command System (ICS).
+* The incident command is in charge of the technical response to the incident.
+
+Needs to be tightly integrated with the strategic organization-wide response.
+
 
 | Investigation         | Remediation           | Monitoring            | Operations          | Logistics / PMO   |
 |-----------------------|-----------------------|-----------------------|---------------------|-------------------|
