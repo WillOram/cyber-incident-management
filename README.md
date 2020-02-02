@@ -1,22 +1,24 @@
 # Managing major cyber incidents 
 
+Quick-reference notes I use as an aid when responding to major cyber incidents. Notes are loosely organised into four sections. 
+
 ## Arriving on scene
 
-[Basics of incident management](#basics-of-incident-management)  
+[The basics of incident management](#The-basics-of-incident-management)  
 [Top priorities when arriving at an incident](#top-priorities-when-arriving-at-an-incident)  
 [Gaining situational awareness](#gaining-situational-awareness)  
 [Immediate priority checklist](#immediate-priority-checklist)  
 
 ## Understanding capabilities 
 
-[Key areas of the environment](#key-areas-of-the-environment)  
+[Understanding the environment](#understanding-the-environment)  
 [Key logs to consider](#key-logs-to-consider)  
 [Detection capabilities](#Detection-capabilities)  
 
 ## Building a response strategy 
 
+[The basics of a response strategy](#the-basics-of-a-response-strategy)  
 [Focusing on key investigative questions](#focusing-on-key-investigative-questions)  
-[Considering response strategy](#considering-response-strategy)  
 [Remediation goals](#remediation-goals)  
 [Focusing on the attacker](#Focusing-on-the-attacker)  
 [Data breach impacts](#Data-breach-impacts)  
@@ -24,15 +26,15 @@
 
 ## Delivering the response 
 
+[Action plan](#action-plan)  
 [Building a watch out criteria](#building-a-watch-out-criteria)  
 [Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)  
 [Key response documents](#key-response-documents)  
-[Action plan](#action-plan)  
 [Communicating on data breaches](#Communicating-on-data-breaches)  
 
 # Arriving on scene
 
-## Basics of incident management
+## The basics of incident management
 
 1. What has happened?
 
@@ -110,7 +112,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 # Understanding capabilities 
 
-## Key areas of the environment 
+## Understanding the environment 
 
 * Workstations
 
@@ -166,6 +168,26 @@ For each:
 
 # Building a response strategy 
 
+## The basics of a response strategy
+
+Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
+
+"How" we are going to respond, organising activities into workstreams.
+
+Considering:
+
+* Priorities and objectives
+
+* Risks and issues 
+
+* Understanding of the environment
+
+* Visibility of the environment 
+
+* Organisational and technical capability / capacity to respond 
+
+* Investigative findings so far, including knowledge of the adversary
+
 ## Focusing on key investigative questions 
 
 1. When was the window of compromise?
@@ -187,22 +209,6 @@ For each:
 9. Does the attacker still have access to the environment?
 
 10. Has the attack concluded?
-
-## Considering response strategy
-
-Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
-
-* Priorities and objectives
-
-* Risks and issues 
-
-* Understanding of the environment
-
-* Visibility of the environment 
-
-* Organisational and technical capability / capacity to respond 
-
-* Investigative findings so far, including knowledge of the adversary
 
 ## Remediation goals
 
@@ -269,6 +275,22 @@ Failure to fully identify and understand all attacker access to the environment 
     Risks and issues are missed, leadership inundated with noise, remediation efforts repeatedly fail
     
 # Delivering the response  
+
+## Action plan
+
+1. What do we want to do? Priorities and objectives
+
+2. How are we going to do it? Strategy, workstreams  
+
+2. Who is responsible for doing it? Roles and responsibilities 
+
+3. How do we communicate with each other? Daily rhythm and tempo
+
+4. What is the procedure if the incident escalates? 
+
+5. What are the expectations of team members working on the response? 
+
+6. How will decisions be made? 
 
 ## Building a watch out criteria 
 
@@ -348,20 +370,6 @@ If triggered:
 9. Stakeholder mapping 
 
 10. Evidence tracker 
-
-## Action plan
-
-1. What do we want to do? Priorities, objectives and strategy
-
-2. Who is responsible for doing it? Roles and responsibilities 
-
-3. How do we communicate with each other? Daily rhythm and tempo
-
-4. What is the procedure if the incident escalates? 
-
-5. What are the expectations of team members working on the response? 
-
-6. How will decisions be made? 
 
 ## Communicating on data breaches 
 
