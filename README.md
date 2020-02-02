@@ -1,25 +1,36 @@
 # Managing major cyber incidents 
 
+## Arriving on scene
+
 [Basics of incident management](#basics-of-incident-management)  
 [Top priorities when arriving at an incident](#top-priorities-when-arriving-at-an-incident)  
 [Gaining situational awareness](#gaining-situational-awareness)  
-[Focusing on key investigative questions](#focusing-on-key-investigative-questions)  
-[Building a watch out criteria](#building-a-watch-out-criteria)  
-[Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)  
-[Key issues managing and coordinating response efforts](#key-issues-managing-and-coordinating-response-efforts)  
-[Key response documents](#key-response-documents)  
+[Immediate priority checklist](#immediate-priority-checklist)  
+
+## Understanding capabilities 
+
 [Key areas of the environment](#key-areas-of-the-environment)  
 [Key logs to consider](#key-logs-to-consider)  
-[Immediate priority checklist](#immediate-priority-checklist)  
-[Considering response strategy](#considering-response-strategy)  
-[Action plan](#action-plan)  
-[Remediation goals](#remediation-goals)  
-[Communicating on data breaches](#Communicating-on-data-breaches)  
-[Focusing-on-the-attacker](#Focusing-on-the-attacker)  
-[Data-breach-impacts](#Data-breach-impacts)  
-[Detection-capabilities](#Detection-capabilities)  
+[Detection capabilities](#Detection-capabilities)  
 
-## Basics of incident management
+## Building a response strategy 
+
+[Focusing on key investigative questions](#focusing-on-key-investigative-questions)  
+[Considering response strategy](#considering-response-strategy)  
+[Remediation goals](#remediation-goals)  
+[Focusing on the attacker](#Focusing-on-the-attacker)  
+[Data breach impacts](#Data-breach-impacts)  
+[Key issues managing and coordinating response efforts](#key-issues-managing-and-coordinating-response-efforts)  
+
+## Delivering the response 
+
+[Building a watch out criteria](#building-a-watch-out-criteria)  
+[Delivering the technical response to an incident](#delivering-the-technical-response-to-an-incident)  
+[Key response documents](#key-response-documents)  
+[Action plan](#action-plan)  
+[Communicating on data breaches](#Communicating-on-data-breaches)  
+
+### Basics of incident management
 
 1. What has happened?
 
@@ -29,7 +40,7 @@
 
 Organisations time and time again struggle to clearly answer these questions during major cyber incidents. 
 
-## Top priorities when arriving at an incident 
+### Top priorities when arriving at an incident 
 
 1. Understand organisational priorities
 
@@ -51,7 +62,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 10. Provide necessary follow-up
 
-## Gaining situational awareness
+### Gaining situational awareness
 
 1. What has happened? 
 
@@ -81,7 +92,65 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 12. Are you in a crisis? 
 
-## Focusing on key investigative questions 
+### Immediate priority checklist 
+
+1. Senior management are being briefed on the incident, risks and issues
+
+2. Action is being taken to mitigate any unacceptable risks to the business 
+
+3. Evidence is being collected and preserved
+
+4. Legal & regulatory obligations are being assessed
+
+4. Gaps in technical visibility have been identified and are being resolved 
+
+5. Incident response and crisis management plans have been initiated
+
+### Key areas of the environment 
+
+| Key areas     |                         |          |
+|---------------|-------------------------|----------|
+| Workstations  | Cloud                   | Identity |
+| Email and Web | Networks / Data centers | Data     |
+| Servers       | Applications            |          |
+
+For each: 
+
+* What do you have? 
+
+* What capabilities do you have to prevent attacker activity? 
+
+* What capabilities do you have to detect attacker activity? 
+
+* What people and processes do you have to support this? 
+
+### Key logs to consider 
+
+* Server and workstation operating system logs
+
+* Authentication logs (e.g. login, remote access, VPN)
+
+* Application logs (e.g. web logs, database logs)
+
+* Network logs (e.g. web proxy logs, firewall logs, DNS, NetFlow)
+
+* Security Tool logs (e.g. EDR, AV, mail filtering logs)
+
+### Detection capabilities
+
+1. What are your roll-out plans and deployment statistics for endpoint agents? 
+
+2. What are your roll-out plans and deployment statistics for network appliances? 
+
+3. What is your availability of logging covering other sources of visibility? 
+
+4. What visibility gaps do you have of the environment? 
+
+5. What monitoring and detection tools are built on top of these sources of visibility?
+
+6. How are these tools  configured to detect attacker activity? 
+
+### Focusing on key investigative questions 
 
 1. When was the window of compromise?
 
@@ -103,7 +172,87 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 10. Has the attack concluded?
 
-## Building a watch out criteria 
+### Considering response strategy
+
+Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
+
+* Priorities and objectives
+
+* Risks and issues 
+
+* Understanding of the environment
+
+* Visibility of the environment 
+
+* Organisational and technical capability / capacity to respond 
+
+* Investigative findings so far, including knowledge of the adversary
+
+### Remediation goals
+
+Increasing the cost to the attacker of achieving their objectives, including:
+
+1. Remove attacker's access to the environment
+
+2. Limit the attacker's ability to regain access to the environment
+
+3. Limit the ability of the attacker to operate within the environment and achieve their objectives
+
+Failure to fully identify and understand all attacker access to the environment will likely significantly impact the effectiveness of any response and remediation efforts.
+
+## Focusing on the attacker
+
+1. What activity was carried out by the attacker within the environment?
+
+2. What access does the attacker have into the environment? 
+
+3. Has the attacker gained access to any data that will make it easier for them to re-compromise the environment? 
+
+4. What are the likely motivations of the attacker? 
+
+5. What are the assessed capabilities of the attacker? 
+
+6. Has the attacker adapted their behaviour as a result of remediation activities undertaken?
+
+### Data breach impacts 
+
+* Reputational 
+
+* Legal
+
+* Technical
+
+* Operational
+
+* Financial 
+
+### Key issues managing and coordinating response efforts
+
+1. No clear or suitable incident management structures 
+
+    Structures are formed ad-hoc, teams fail to interoperate, existing businesses structures are used 
+
+2. Lack of "operational rhythm" and programme management 
+
+    Response is not as quick as leadership desires, delays in recognising a crisis, lack of accountability and action tracking
+
+3. No clear strategy and objectives driving response efforts
+
+    Response is tactical not strategic, conflicting priorities/strategies, reactive decision making
+
+4. Poor communication and collaboration
+
+    Disjoined uses of tooling, conflicting terminology, poor interoperability and missed/delayed escalations 
+
+5. Lack of leadership and accountability
+
+    Unclear chains of command, blurred lines of responsibility, fragmented teams, lack of trust reduces collaboration
+
+6. No clear understanding of the facts which matter 
+
+    Risks and issues are missed, leadership inundated with noise, remediation efforts repeatedly fail
+    
+### Building a watch out criteria 
 
 1. Attacker finds a previously unidentified route into the environment
 
@@ -137,7 +286,7 @@ If triggered:
 
 7. How is the organisation building an increased state of readiness? 
 
-## Delivering the technical response to an incident 
+### Delivering the technical response to an incident 
 
 | Investigation         | Remediation           | Monitoring            | Operations          | Logistics / PMO   |
 |-----------------------|-----------------------|-----------------------|---------------------|-------------------|
@@ -160,33 +309,7 @@ If triggered:
 | Impact Assessment            | Monitoring and Hunting       | Remediation Planning   | Finance and Admin |
 |                              | Remediation and Recovery     |                        |                   |
 
-## Key issues managing and coordinating response efforts
-
-1. No clear or suitable incident management structures 
-
-    Structures are formed ad-hoc, teams fail to interoperate, existing businesses structures are used 
-
-2. Lack of "operational rhythm" and programme management 
-
-    Response is not as quick as leadership desires, delays in recognising a crisis, lack of accountability and action tracking
-
-3. No clear strategy and objectives driving response efforts
-
-    Response is tactical not strategic, conflicting priorities/strategies, reactive decision making
-
-4. Poor communication and collaboration
-
-    Disjoined uses of tooling, conflicting terminology, poor interoperability and missed/delayed escalations 
-
-5. Lack of leadership and accountability
-
-    Unclear chains of command, blurred lines of responsibility, fragmented teams, lack of trust reduces collaboration
-
-6. No clear understanding of the facts which matter 
-
-    Risks and issues are missed, leadership inundated with noise, remediation efforts repeatedly fail
-
-## Key response documents
+### Key response documents
 
 1. Incident action plan
 
@@ -208,67 +331,7 @@ If triggered:
 
 10. Evidence tracker 
 
-## Key areas of the environment 
-
-| Key areas     |                         |          |
-|---------------|-------------------------|----------|
-| Workstations  | Cloud                   | Identity |
-| Email and Web | Networks / Data centers | Data     |
-| Servers       | Applications            |          |
-
-For each: 
-
-* What do you have? 
-
-* What capabilities do you have to prevent attacker activity? 
-
-* What capabilities do you have to detect attacker activity? 
-
-* What people and processes do you have to support this? 
-
-## Key logs to consider 
-
-* Server and workstation operating system logs
-
-* Authentication logs (e.g. login, remote access, VPN)
-
-* Application logs (e.g. web logs, database logs)
-
-* Network logs (e.g. web proxy logs, firewall logs, DNS, NetFlow)
-
-* Security Tool logs (e.g. EDR, AV, mail filtering logs)
-
-## Immediate priority checklist 
-
-1. Senior management are being briefed on the incident, risks and issues
-
-2. Action is being taken to mitigate any unacceptable risks to the business 
-
-3. Evidence is being collected and preserved
-
-4. Legal & regulatory obligations are being assessed
-
-4. Gaps in technical visibility have been identified and are being resolved 
-
-5. Incident response and crisis management plans have been initiated
-
-## Considering response strategy
-
-Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
-
-* Priorities and objectives
-
-* Risks and issues 
-
-* Understanding of the environment
-
-* Visibility of the environment 
-
-* Organisational and technical capability / capacity to respond 
-
-* Investigative findings so far, including knowledge of the adversary
-
-## Action plan
+### Action plan
 
 1. What do we want to do? Priorities, objectives and strategy
 
@@ -282,19 +345,7 @@ Response strategy needs to be proportionate to respond to sophistication of the 
 
 6. How will decisions be made? 
 
-## Remediation goals
-
-Increasing the cost to the attacker of achieving their objectives, including:
-
-1. Remove attacker's access to the environment
-
-2. Limit the attacker's ability to regain access to the environment
-
-3. Limit the ability of the attacker to operate within the environment and achieve their objectives
-
-Failure to fully identify and understand all attacker access to the environment will likely significantly impact the effectiveness of any response and remediation efforts.
-
-## Communicating on data breaches 
+### Communicating on data breaches 
 
 Key messages to deliver: 
 
@@ -328,42 +379,5 @@ Key questions to answer:
 
 Good Examples: [Monzo](https://monzo.com/blog/2017/03/05/outage) 
 
-## Focusing on the attacker
 
-1. What activity was carried out by the attacker within the environment?
 
-2. What access does the attacker have into the environment? 
-
-3. Has the attacker gained access to any data that will make it easier for them to re-compromise the environment? 
-
-4. What are the likely motivations of the attacker? 
-
-5. What are the assessed capabilities of the attacker? 
-
-6. Has the attacker adapted their behaviour as a result of remediation activities undertaken?
-
-## Data breach impacts 
-
-* Reputational 
-
-* Legal
-
-* Technical
-
-* Operational
-
-* Financial 
-
-## Detection capabilities 
-
-1. What are your roll-out plans and deployment statistics for endpoint agents? 
-
-2. What are your roll-out plans and deployment statistics for network appliances? 
-
-3. What is your availability of logging covering other sources of visibility? 
-
-4. What visibility gaps do you have of the environment? 
-
-5. What monitoring and detection tools are built on top of these sources of visibility?
-
-6. How are these tools  configured to detect attacker activity? 
