@@ -15,6 +15,9 @@
 [Action plan](#action-plan)  
 [Remediation goals](#remediation-goals)  
 [Communicating on data breaches](#Communicating-on-data-breaches)  
+[Focusing-on-the-attacker](#Focusing-on-the-attacker)  
+[Data-breach-impacts](#Data-breach-impacts)  
+[Detection-capabilities](#Detection-capabilities)  
 
 ## Basics of incident management
 
@@ -38,7 +41,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 5. Integrate with the business-wide strategic response
 
-6. Define ways of working and build response tempo
+6. Define ways of working and build response tempo (including secure tools for communication and collaboration) 
 
 7. Establish measurable incident objectives
 
@@ -68,7 +71,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 9. What is your plan? 
 
-10. Who is in charge? 
+10. Who is in charge? (of the response and individual workstreams)
 
 11. Have you thought about how the incident could esclate?  
 
@@ -94,7 +97,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 7. What data did the attacker access and how did the attacker do this?
 
-8. What evidence is there of data ex-filtration?
+8. What evidence is there of data exfiltration?
 
 9. Does the attacker still have access to the environment?
 
@@ -120,15 +123,35 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 If triggered: 
 
-1.  Who should this be communicated to?
+1. Who should this be communicated to?
 
-2.  How should this be communicated to them?
+2. How should this be communicated to them?
 
-3.  How should this first be verified? 
+3. How should this first be verified? 
 
-4.  Should this communication be written or verbal in the first instance?
+4. Should this communication be written or verbal in the first instance?
+
+5. What technical response playbooks have been written to ensure a rapidly and effectively response? 
+
+6. What playbooks have been written for carrying out common response tasks such as blockings IPs, sinkholing DNS, resetting accounts and isolating systems? 
+
+7. How is the organisation building an increased state of readiness? 
 
 ## Delivering the technical response to an incident 
+
+| Investigation         | Remediation           | Monitoring            | Operations          | Logistics / PMO   |
+|-----------------------|-----------------------|-----------------------|---------------------|-------------------|
+| Situational Awareness | Analysis and Planning | Threat Detection      | Evidence Collection | Action Tracking   |
+| Forensic Analysis     | Triage                | Continuous Monitoring | Tech Deployment     | Resourcing        |
+| Threat Intelligence   | Delivery              | Threat Hunting        | Recovery            | Finance and Admin |
+| Impact Assessment     |                       |                       |                     |                   |
+
+| Investigation / Intelligence       | Monitoring       | Preemptive Containment  | Security Improvement |
+|------------------------------------|------------------|-------------------------|----------------------|
+| Situational Awareness and Planning | Threat Detection | Plan                    | Plan                 |
+| Forensic Analysis                  | Monitoring       | Triage                  | Triage               |
+| Threat Intelligence                | Threat Hunting   | Deliver                 | Deliver              |
+| Impact Analysis                    |                  | Test                    | Test                 |
 
 | Investigation / Intelligence | Operations                   | Planning               | Logistics / PMO   |
 |------------------------------|------------------------------|------------------------|-------------------|
@@ -187,22 +210,33 @@ If triggered:
 
 ## Key areas of the environment 
 
-* Workstations
-* Email and Web 
-* Servers
-* Cloud
-* Networks / Data centers
-* Applications
-* Identity
-* Data
+| Key areas     |                         |          |
+|---------------|-------------------------|----------|
+| Workstations  | Cloud                   | Identity |
+| Email and Web | Networks / Data centers | Data     |
+| Servers       | Applications            |          |
+
+For each: 
+
+* What do you have? 
+
+* What capabilities do you have to prevent attacker activity? 
+
+* What capabilities do you have to detect attacker activity? 
+
+* What people and processes do you have to support this? 
 
 ## Key logs to consider 
 
 * Server and workstation operating system logs
+
 * Authentication logs (e.g. login, remote access, VPN)
+
 * Application logs (e.g. web logs, database logs)
-* Network logs (e.g. web proxy logs, firewall logs, NetFlow)
-* Security Tool logs (e.g. EDR, anti-virus, mail filtering logs)
+
+* Network logs (e.g. web proxy logs, firewall logs, DNS, NetFlow)
+
+* Security Tool logs (e.g. EDR, AV, mail filtering logs)
 
 ## Immediate priority checklist 
 
@@ -220,11 +254,18 @@ If triggered:
 
 ## Considering response strategy
 
+Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
+
 * Priorities and objectives
+
 * Risks and issues 
+
 * Understanding of the environment
+
 * Visibility of the environment 
+
 * Organisational and technical capability / capacity to respond 
+
 * Investigative findings so far, including knowledge of the adversary
 
 ## Action plan
@@ -251,6 +292,8 @@ Increasing the cost to the attacker of achieving their objectives, including:
 
 3. Limit the ability of the attacker to operate within the environment and achieve their objectives
 
+Failure to fully identify and understand all attacker access to the environment will likely significantly impact the effectiveness of any response and remediation efforts.
+
 ## Communicating on data breaches 
 
 Key messages to deliver: 
@@ -260,6 +303,14 @@ Key messages to deliver:
 * Control (of the situation)
 
 * Commitment (to resolving the problem)
+
+Key considerations: 
+
+* Mapping stakeholders 
+
+* Coordinating /sequencing communcations 
+
+* Anticipating stakeholder issues and preparing to respond 
 
 Key questions to answer: 
 
@@ -273,6 +324,46 @@ Key questions to answer:
 
 5. When are you going to provide your next update? 
 
-6. What steps customers can take to protect themselves? 
+6. What steps customers can take to protect themselves? (what are you doing to help customers?) 
 
+Good Examples: [Monzo](https://monzo.com/blog/2017/03/05/outage) 
 
+## Focusing on the attacker
+
+1. What activity was carried out by the attacker within the environment?
+
+2. What access does the attacker have into the environment? 
+
+3. Has the attacker gained access to any data that will make it easier for them to re-compromise the environment? 
+
+4. What are the likely motivations of the attacker? 
+
+5. What are the assessed capabilities of the attacker? 
+
+6. Has the attacker adapted their behaviour as a result of remediation activities undertaken?
+
+## Data breach impacts 
+
+* Reputational 
+
+* Legal
+
+* Technical
+
+* Operational
+
+* Financial 
+
+## Detection capabilities 
+
+1. What are your roll-out plans and deployment statistics for endpoint agents? 
+
+2. What are your roll-out plans and deployment statistics for network appliances? 
+
+3. What is your availability of logging covering other sources of visibility? 
+
+4. What visibility gaps do you have of the environment? 
+
+5. What monitoring and detection tools are built on top of these sources of visibility?
+
+6. How are these tools  configured to detect attacker activity? 
