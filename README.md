@@ -30,7 +30,9 @@
 [Action plan](#action-plan)  
 [Communicating on data breaches](#Communicating-on-data-breaches)  
 
-### Basics of incident management
+# Arriving on scene
+
+## Basics of incident management
 
 1. What has happened?
 
@@ -40,7 +42,7 @@
 
 Organisations time and time again struggle to clearly answer these questions during major cyber incidents. 
 
-### Top priorities when arriving at an incident 
+## Top priorities when arriving at an incident 
 
 1. Understand organisational priorities
 
@@ -62,7 +64,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 10. Provide necessary follow-up
 
-### Gaining situational awareness
+## Gaining situational awareness
 
 1. What has happened? 
 
@@ -92,7 +94,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 12. Are you in a crisis? 
 
-### Immediate priority checklist 
+## Immediate priority checklist 
 
 1. Senior management are being briefed on the incident, risks and issues
 
@@ -106,25 +108,37 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 5. Incident response and crisis management plans have been initiated
 
-### Key areas of the environment 
+# Understanding capabilities 
 
-| Key areas     |                         |          |
-|---------------|-------------------------|----------|
-| Workstations  | Cloud                   | Identity |
-| Email and Web | Networks / Data centers | Data     |
-| Servers       | Applications            |          |
+## Key areas of the environment 
+
+* Workstations
+
+* Email and Web 
+
+* Servers
+
+* Cloud
+
+* Networks / Data centers
+
+* Applications
+
+* Identity 
+
+* Data
 
 For each: 
 
 * What do you have? 
 
-* What capabilities do you have to prevent attacker activity? 
+* What capabilities do you have to prevent attackers? 
 
-* What capabilities do you have to detect attacker activity? 
+* What capabilities do you have to detect attackers? 
 
 * What people and processes do you have to support this? 
 
-### Key logs to consider 
+## Key logs to consider 
 
 * Server and workstation operating system logs
 
@@ -136,7 +150,7 @@ For each:
 
 * Security Tool logs (e.g. EDR, AV, mail filtering logs)
 
-### Detection capabilities
+## Detection capabilities
 
 1. What are your roll-out plans and deployment statistics for endpoint agents? 
 
@@ -150,7 +164,9 @@ For each:
 
 6. How are these tools  configured to detect attacker activity? 
 
-### Focusing on key investigative questions 
+# Building a response strategy 
+
+## Focusing on key investigative questions 
 
 1. When was the window of compromise?
 
@@ -172,7 +188,7 @@ For each:
 
 10. Has the attack concluded?
 
-### Considering response strategy
+## Considering response strategy
 
 Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
 
@@ -188,7 +204,7 @@ Response strategy needs to be proportionate to respond to sophistication of the 
 
 * Investigative findings so far, including knowledge of the adversary
 
-### Remediation goals
+## Remediation goals
 
 Increasing the cost to the attacker of achieving their objectives, including:
 
@@ -214,7 +230,7 @@ Failure to fully identify and understand all attacker access to the environment 
 
 6. Has the attacker adapted their behaviour as a result of remediation activities undertaken?
 
-### Data breach impacts 
+## Data breach impacts 
 
 * Reputational 
 
@@ -226,7 +242,7 @@ Failure to fully identify and understand all attacker access to the environment 
 
 * Financial 
 
-### Key issues managing and coordinating response efforts
+## Key issues managing and coordinating response efforts
 
 1. No clear or suitable incident management structures 
 
@@ -252,7 +268,9 @@ Failure to fully identify and understand all attacker access to the environment 
 
     Risks and issues are missed, leadership inundated with noise, remediation efforts repeatedly fail
     
-### Building a watch out criteria 
+# Delivering the response  
+
+## Building a watch out criteria 
 
 1. Attacker finds a previously unidentified route into the environment
 
@@ -286,7 +304,7 @@ If triggered:
 
 7. How is the organisation building an increased state of readiness? 
 
-### Delivering the technical response to an incident 
+## Delivering the technical response to an incident 
 
 | Investigation         | Remediation           | Monitoring            | Operations          | Logistics / PMO   |
 |-----------------------|-----------------------|-----------------------|---------------------|-------------------|
@@ -309,7 +327,7 @@ If triggered:
 | Impact Assessment            | Monitoring and Hunting       | Remediation Planning   | Finance and Admin |
 |                              | Remediation and Recovery     |                        |                   |
 
-### Key response documents
+## Key response documents
 
 1. Incident action plan
 
@@ -331,7 +349,7 @@ If triggered:
 
 10. Evidence tracker 
 
-### Action plan
+## Action plan
 
 1. What do we want to do? Priorities, objectives and strategy
 
@@ -345,7 +363,7 @@ If triggered:
 
 6. How will decisions be made? 
 
-### Communicating on data breaches 
+## Communicating on data breaches 
 
 Key messages to deliver: 
 
