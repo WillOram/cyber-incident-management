@@ -1,6 +1,6 @@
 # Managing major cyber incidents 
 
-Quick-reference notes I use as an aid when responding to major cyber incidents. Notes are loosely organised into four sections. 
+Quick-reference notes I use when responding to major cyber incidents. Loosely organised into four sections. 
 
 ## Arriving on scene
 
