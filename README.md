@@ -117,47 +117,32 @@ Organisations time and time again struggle to clearly answer these questions dur
 ## Understanding the environment 
 
 * Workstations
-
 * Email and Web 
-
 * Servers
-
 * Cloud
-
 * Networks / Data centers
-
 * Applications
-
 * Identity 
-
 * Data
 
 For each: 
 
 * What do you have? 
-
 * What capabilities do you have to prevent attackers? Coverage, features, constraints, limitations 
-
 * What capabilities do you have to detect attackers? Coverage, features, constraints, limitations  
-
 * What people and processes do you have to support this? 
 
 Other questions:
 
 * How quickly can new tech be deployed? (e.g. endpoint detection and response agents) 
-
 * Who are the key contacts/SMEs?
 
 ## Key logs to consider 
 
 * Server and workstation operating system logs
-
 * Authentication logs (e.g. login, remote access, VPN)
-
 * Application logs (e.g. web logs, database logs)
-
 * Network logs (e.g. web proxy logs, firewall logs, DNS, NetFlow)
-
 * Security Tool logs (e.g. EDR, AV, mail filtering logs)
 
 ## Detection capabilities
@@ -185,15 +170,10 @@ Response strategy needs to be proportionate to respond to sophistication of the 
 Considering:
 
 * Priorities and objectives
-
 * Risks and issues 
-
 * Understanding of the environment
-
 * Visibility of the environment 
-
 * Organisational and technical capability / capacity to respond 
-
 * Investigative findings so far, including knowledge of the adversary
 
 ## Building workstreams
@@ -266,13 +246,9 @@ Failure to fully identify and understand all attacker access to the environment 
 ## Data breach impacts 
 
 * Reputational 
-
 * Legal
-
 * Technical
-
 * Operational
-
 * Financial 
 
 ## Key issues managing and coordinating response efforts
@@ -322,21 +298,13 @@ Failure to fully identify and understand all attacker access to the environment 
 ## Driving forward delivery 
 
 * Break the organisation out of a business as usual mindset - removing pre-existing structures, expectations and assumptions
-
 * Build and follow a planning process 
-
 * Group tactical and tasks into workstreams with leads
-
 * Communicate strategy and plans, roles and responsibilities to all involved 
-
 * Track and hold teams to account to deliver on actions 
-
 * Get teams to report on the delivery and effectiveness of plans in measurable ways
-
 * Run effective meetings with defined outcomes
-
 * Ensure situational awareness and document 
-
 * Track risks and issues 
 
 ## Defining a watch out criteria 
