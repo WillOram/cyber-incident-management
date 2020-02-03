@@ -62,7 +62,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 7. Establish measurable incident objectives
 
-8. Select appropriate strategies to achieve objectives
+8. Select appropriate strategies to achieve objectives and stand-up workstreams to deliver
 
 9. Perform tactical direction 
 
@@ -183,6 +183,8 @@ Work streams should map to objectives / strategies, not aligned pre-existing bus
 Each work stream should have a lead responsible and accountable for the work stream's activities. 
 
 Where possible the team working on a work stream should work and sit together.
+
+Processes used by each work stream should be mapped out and communicated. 
 
 Need to ensure response efforts have the capacity and speed to scale to the size of the incident.
 
@@ -415,6 +417,8 @@ Needs to be tightly integrated with the strategic organization-wide response.
 
 11. Media handling FAQ 
 
+12. Comms tracker
+
 ## Communicating on data breaches 
 
 Key messages to deliver: 
@@ -436,6 +440,8 @@ Key considerations:
 * Incremental reassurance
 
 * Media trackers 
+
+* External comms trackers (e.g. vendors)
 
 Key questions to answer: 
 
