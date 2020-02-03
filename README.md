@@ -347,11 +347,11 @@ Responding to a significant cyber security incident requires not only a technica
 
 #### Crisis Management Team (CMT)
 
-* Manages and coordinates the organization-wide response to the incident.
-* Sets the response objectives, priorities and strategies.
-* Has overall responsibility for all response activities.
-* Secures support from the wider organization including from senior management.
-* Leads with an example of the culture required to successfully navigate through the crisis.
+* Manages and coordinates the organization-wide response to the incident
+* Sets the response objectives, priorities and strategies
+* Has overall responsibility for all response activities
+* Secures support from the wider organization including from senior management
+* Leads with an example of the culture required to successfully navigate through the crisis
 
 Needs to be tightly integrated with the technical response.
 
@@ -364,8 +364,8 @@ Needs to be tightly integrated with the technical response.
 #### Incident Management Team (IMT)
 
 * Delivers the technical response to the incident
-* Uses the inter-operable / modular FEMA Incident Command System (ICS).
-* The incident command is in charge of the technical response to the incident.
+* Uses the inter-operable / modular FEMA Incident Command System (ICS)
+* The incident command is in charge of the technical response to the incident
 
 Needs to be tightly integrated with the strategic organization-wide response.
 
@@ -413,6 +413,8 @@ Needs to be tightly integrated with the strategic organization-wide response.
 
 10. Evidence tracker 
 
+11. Media handling FAQ 
+
 ## Communicating on data breaches 
 
 Key messages to deliver: 
@@ -427,7 +429,7 @@ Key considerations:
 
 * Mapping stakeholders 
 
-* Coordinating /sequencing communications 
+* Coordinating / sequencing communications 
 
 * Anticipating stakeholder issues and preparing to respond 
 
@@ -448,6 +450,8 @@ Key questions to answer:
 5. When are you going to provide your next update? 
 
 6. What steps customers can take to protect themselves? (what are you doing to help customers?) 
+
+7. FAQs
 
 Good Examples: [Monzo](https://monzo.com/blog/2017/03/05/outage) 
 
