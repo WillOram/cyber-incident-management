@@ -28,7 +28,7 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 ## Delivering the response 
 
 [Building an action plan](#building-an-action-plan)  
-[Driving forward delivery](#driving-forward-delivery)
+[Driving forward delivery](#driving-forward-delivery)  
 [Defining a watch out criteria](#defining-a-watch-out-criteria)  
 [Delivering the response to an incident](#delivering-the-technical-response-to-an-incident)  
 [Key response documents](#key-response-documents)  
@@ -430,6 +430,10 @@ Key considerations:
 * Coordinating /sequencing communcations 
 
 * Anticipating stakeholder issues and preparing to respond 
+
+* Incremental reassurance
+
+* Media trackers 
 
 Key questions to answer: 
 
