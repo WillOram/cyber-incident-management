@@ -78,7 +78,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 4. Have you considered the legal and regulatory implications?  
 
-5. Have senior leadership been briefed? 
+5. Has senior leadership been briefed? 
 
 6. Who has been notified?  
 
@@ -90,7 +90,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 10. Who is in charge? (of the response and individual workstreams)
 
-11. Have you thought about how the incident could esclate?  
+11. Have you thought about how the incident could escalate?  
 
 11. What is your plan if the incident escalates? (and how will you identify this?)
 
@@ -180,9 +180,9 @@ Considering:
 
 Work streams should map to objectives / strategies, not aligned pre-existing business units / organisational hierarchies. 
 
-Each work streams should have a lead responsible and accountable for the work stream's activities. 
+Each work stream should have a lead responsible and accountable for the work stream's activities. 
 
-Where possible the team working on a work streams should work and sit together.
+Where possible the team working on a work stream should work and sit together.
 
 Need to ensure response efforts have the capacity and speed to scale to the size of the incident.
 
@@ -427,7 +427,7 @@ Key considerations:
 
 * Mapping stakeholders 
 
-* Coordinating /sequencing communcations 
+* Coordinating /sequencing communications 
 
 * Anticipating stakeholder issues and preparing to respond 
 
