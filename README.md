@@ -56,17 +56,21 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 4. Assess risks and issues
 
-5. Integrate with the business-wide strategic response
+5. Stand up / integrate with the business-wide strategic response
 
-6. Define ways of working and build response tempo (including secure tools for communication and collaboration) 
+6. Define ways of working and build response tempo 
 
-7. Establish measurable incident objectives
+7. Stand up common secure tools for communication and collaboration (e.g. O365, Microsoft Teams, Slack, Google Drive)
 
-8. Select appropriate strategies to achieve objectives and stand-up workstreams to deliver
+8. Establish measurable incident objectives
 
-9. Perform tactical direction 
+9. Select appropriate strategies to achieve objectives 
 
-10. Provide necessary follow-up
+10. Define and mobilise workstreams to deliver on strategies / tasks (define and document workstream processes)
+
+11. Identify and resolve resourcing gaps 
+
+12. Perform tactical direction and provide necessary follow-up
 
 ## Gaining situational awareness
 
@@ -433,7 +437,7 @@ Key considerations:
 
 * Mapping stakeholders 
 
-* Coordinating / sequencing communications 
+* Coordinating / sequencing communications based on priority 
 
 * Anticipating stakeholder issues and preparing to respond 
 
