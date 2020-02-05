@@ -60,7 +60,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 6. Define ways of working and build response tempo 
 
-7. Stand up common platforms for secure communication and collaboration (e.g. O365 / Teams, JIRA, Slack, Google Drive)
+7. Stand up common platforms for secure communication and collaboration (e.g. Teams, JIRA, Slack, Google Drive)
 
 8. Establish measurable incident objectives
 
