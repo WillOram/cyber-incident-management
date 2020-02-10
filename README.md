@@ -167,9 +167,9 @@ Other questions:
 
 ## The basics of a response strategy
 
-Response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
+A response strategy needs to be proportionate to respond to sophistication of the threat actor and the scale/complexity of the incident.
 
-"How" we are going to respond, organising activities into workstreams. 
+Encompasses "how" we are going to respond. Activities should then be grouped / organised into workstreams. 
 
 Considering:
 
@@ -182,17 +182,18 @@ Considering:
 
 ## Building workstreams
 
-Work streams should map to objectives / strategies, not aligned pre-existing business units / organisational hierarchies. 
+Workstreams should map to objectives / strategies, not aligned to any pre-existing business units / organisational hierarchies. 
 
-Each work stream should have a lead responsible and accountable for the work stream's activities. 
+Each workstream should have a lead responsible and accountable for the workstream's activities. 
 
-Where possible the team working on a work stream should work and sit together.
+Where possible the team working on a workstream should work and sit together.
 
-Processes used by each work stream should be mapped out and communicated. 
+Processes used by each workstream should be mapped out and communicated. 
 
 Need to ensure response efforts have the capacity and speed to scale to the size of the incident.
 
-Example work streams for the strategic organization-wide response
+Example workstreams for the strategic organization-wide response
+
 * Communications
 * Legal
 * IT Operations
@@ -370,7 +371,7 @@ Needs to be tightly integrated with the technical response.
 #### Incident Management Team (IMT)
 
 * Delivers the technical response to the incident
-* Uses the inter-operable / modular FEMA Incident Command System (ICS)
+* Uses the inter-operable / modular [FEMA Incident Command System (ICS)](https://training.fema.gov/emiweb/is/icsresource/index.htm)
 * The incident command is in charge of the technical response to the incident
 
 Needs to be tightly integrated with the strategic organization-wide response.
@@ -462,8 +463,5 @@ Key questions to answer:
 6. What steps customers can take to protect themselves? (what are you doing to help customers?) 
 
 7. FAQs
-
-Good Examples: [Monzo](https://monzo.com/blog/2017/03/05/outage) 
-
 
 
