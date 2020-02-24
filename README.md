@@ -226,15 +226,19 @@ Example workstreams for the strategic organization-wide response
 
 ## Remediation goals
 
-Increasing the cost to the attacker of achieving their objectives, including:
+Remediation has four key objectives: 
 
-1. Remove attacker's access to the environment
+1. Remove attacker access to the environment.
 
-2. Limit the attacker's ability to regain access to the environment
+2. Prevent the attacker from re-gaining access to the environment.
 
-3. Limit the ability of the attacker to operate within the environment and achieve their objectives
+3. Detect the attacker if they re-gain access to the environment. 
 
-Failure to fully identify and understand all attacker access to the environment will likely significantly impact the effectiveness of any response and remediation efforts.
+4. Limit the attacker’s ability to achieve any objectives if access to the environment is reacquired.
+
+These four objectives are achieved by carrying out posturing, eradication and hardening. 
+
+Against a motivated and targeted attacker, failure to identify all attacker access, improve detection capabilities and carry out improvements to prevent the attacker from immediately re-gaining access to the environment, will likely result in the eradication not being successful (with the attacker maintaining access and embedding deeper in the network). 
 
 ## Focusing on the attacker
 
