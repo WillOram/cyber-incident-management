@@ -454,18 +454,25 @@ Key considerations:
 
 Key questions to answer: 
 
-1. What happened?
+- What happened?
 
-2. What will the impact be on customers? 
+- How this happened?
 
-3. How do you feel about it?
+- What will the impact be on customers? 
 
-4. What are you doing about it?
+- How do you feel about it?
 
-5. When are you going to provide your next update? 
+- What you are going to do to fix it?
 
-6. What steps customers can take to protect themselves? (what are you doing to help customers?) 
+- How you are committed to making this right? 
 
-7. FAQs
+- How you are going to be transparent and maintain customer trust?
 
+- How you are staying true to your values?
+
+- What steps customers can take to protect themselves? (what are you doing to help customers?) 
+
+- When are you going to provide your next update? 
+
+- FAQs (see my other GitHub repo [here](https://github.com/WillOram/cyber-data-breach-q-and-a) for examples)
 
