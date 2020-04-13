@@ -20,7 +20,7 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 [The basics of a response strategy](#the-basics-of-a-response-strategy)  
 [Building workstreams](#building-workstreams)  
 [Focusing on key investigative questions](#focusing-on-key-investigative-questions)  
-[Remediation goals](#remediation-goals)  
+[Remediation objectives](#remediation-objectives)  
 [Focusing on the attacker](#Focusing-on-the-attacker)  
 [Data breach impacts](#Data-breach-impacts)  
 [Key issues managing and coordinating response efforts](#key-issues-managing-and-coordinating-response-efforts)  
@@ -224,7 +224,7 @@ Example workstreams for the strategic organization-wide response
 
 10. Has the attack concluded?
 
-## Remediation goals
+## Remediation objectives
 
 Remediation has four key objectives: 
 
@@ -239,6 +239,8 @@ Remediation has four key objectives:
 These four objectives are achieved by carrying out posturing, eradication and hardening. 
 
 Against a motivated and targeted attacker, failure to identify all attacker access, improve detection capabilities and carry out improvements to prevent the attacker from immediately re-gaining access to the environment, will likely result in the eradication not being successful (with the attacker maintaining access and embedding deeper in the network). 
+
+See my other GitHub repo [here](https://github.com/WillOram/cyber-remediation) for more information.
 
 ## Focusing on the attacker
 
