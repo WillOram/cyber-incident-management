@@ -72,6 +72,8 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 12. Perform tactical direction and provide necessary follow-up
 
+(Document everything)
+
 ## Gaining situational awareness
 
 1. What has happened? 
