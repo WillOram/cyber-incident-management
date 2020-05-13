@@ -30,6 +30,7 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 [Building an action plan](#building-an-action-plan)  
 [Driving forward delivery](#driving-forward-delivery)  
 [Defining a watch out criteria](#defining-a-watch-out-criteria)  
+[Managing an interrupted remediation](#Managing-an-interrupted-remediation)  
 [Delivering the response to an incident](#delivering-the-technical-response-to-an-incident)  
 [Key response documents](#key-response-documents)  
 [Communicating on data breaches](#Communicating-on-data-breaches)  
@@ -356,6 +357,36 @@ If triggered:
 
 7. How is the organisation building an increased state of readiness? 
 
+## Managing an interrupted remediation
+
+If remediation activities are interrupted by an alert what are the key questions to ask. 
+
+1. When did the first alert occur? 
+
+2. What is the first evidence of compromise on this system? (e.g. before or after eradication, key to decide whether to rapidly remediate)
+
+3. Should any of this activity have been blocked? 
+
+4. Are we seeing any of the same indicators as used previously? (e.g. IP or domain names)
+
+5. Are we seeing similar TTPs to previous activity? 
+
+6. Are we confident this is the same attacker? 
+
+7. Are we seeing attacker hands-on keyboard activity? 
+
+8. What activity has the attacker performed? 
+
+9. What level of access has the attacker gained? 
+
+10. Is there any other related activity on other systems? 
+
+Key decision making factors for response 
+
+1. Are we confident all new activity has been identified? 
+
+2. Will we alert on all instances of this activity going forward?
+
 ## Delivering the response to an incident 
 
 Responding to a significant cyber security incident requires not only a technical response but a highly integrated strategic organization-wide response.
@@ -385,26 +416,19 @@ Needs to be tightly integrated with the technical response.
 Needs to be tightly integrated with the strategic organization-wide response.
 
 
-| Investigation         | Remediation           | Monitoring            | Operations          | Logistics / PMO   |
-|-----------------------|-----------------------|-----------------------|---------------------|-------------------|
-| Situational Awareness | Analysis and Planning | Threat Detection      | Evidence Collection | Action Tracking   |
-| Forensic Analysis     | Triage                | Continuous Monitoring | Tech Deployment     | Resourcing        |
-| Threat Intelligence   | Delivery              | Threat Hunting        | Recovery            | Finance and Admin |
-| Impact Assessment     |                       |                       |                     |                   |
+| Investigation         | Threat Hunting    | Remediation           | Monitoring            | Operations          | Logistics / PMO   |
+|-----------------------|-------------------|-----------------------|-----------------------|---------------------|-------------------|
+| Situational Awareness | Threat Detection  | Analysis and Planning | Alert Triage          | Evidence Collection | Action Tracking   |
+| Forensic Analysis     | Hunting           | Triage                | Continuous Monitoring | Tech Deployment     | Resourcing        |
+| Threat Intelligence   | Tuning            | Delivery              |                       | Agent Deployment    | Finance and Admin |
+| Impact Assessment     |                   |                       |                       | Recovery            |                   |
 
-| Investigation / Intelligence       | Monitoring       | Preemptive Containment  | Security Improvement |
-|------------------------------------|------------------|-------------------------|----------------------|
-| Situational Awareness and Planning | Threat Detection | Plan                    | Plan                 |
-| Forensic Analysis                  | Monitoring       | Triage                  | Triage               |
-| Threat Intelligence                | Threat Hunting   | Deliver                 | Deliver              |
-| Impact Analysis                    |                  | Test                    | Test                 |
-
-| Investigation / Intelligence | Operations                   | Planning               | Logistics / PMO   |
-|------------------------------|------------------------------|------------------------|-------------------|
-| Investigation                | Evidence Collection          | Investigation Planning | Action Tracking   |
-| Threat Intelligence          | Tech Deployment (Visibility) | Situational Awareness  | Resourcing        |
-| Impact Assessment            | Monitoring and Hunting       | Remediation Planning   | Finance and Admin |
-|                              | Remediation and Recovery     |                        |                   |
+Other ideas for workstreams:
+- Agent Deployment
+- Threat Intelligence 
+- Pre-emptive containment (limit the impact of ransomware attacks before they detonate)
+- Recovery
+- Strategic Improvement
 
 ## Key response documents
 
@@ -423,6 +447,11 @@ Needs to be tightly integrated with the strategic organization-wide response.
 7. Risks, actions, issues, decisions tracker
 
 8. Investigation tracker 
+- What systems are compromised / suspected compromised?
+- What systems has the attacker accessed? 
+- What systems has the attacker performed recon against? 
+- What accounts are compromised / suspected compromised?
+- What systems have agents deployed? 
 
 9. Stakeholder mapping 
 
