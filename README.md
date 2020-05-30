@@ -1,3 +1,5 @@
+Hi, my name is [Will Oram](https://willoram.com/). I’m a cyber security consultant living in London. You can follow me on [Twitter](https://twitter.com/willoram). I help companies respond to cyber security breaches and prevent cyber attacks. I also tweet and blog about cyber security, and maintain this collection of resources for managing cyber security breaches. 
+
 # Managing major cyber incidents 
 
 Quick-reference notes I use when responding to major cyber incidents. Loosely organised into four sections. 
