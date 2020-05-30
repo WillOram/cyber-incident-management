@@ -7,7 +7,8 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 [The basics of incident management](#The-basics-of-incident-management)  
 [Top priorities when arriving at an incident](#top-priorities-when-arriving-at-an-incident)  
 [Gaining situational awareness](#gaining-situational-awareness)  
-[Immediate priority checklist](#immediate-priority-checklist)  
+[Immediate priority checklist](#immediate-priority-checklist)   
+[Common platform for secure communication and collaboration](#Common-platform-for-secure-communication-and-collaboration)  
 
 ## Understanding capabilities 
 
@@ -29,6 +30,7 @@ Quick-reference notes I use when responding to major cyber incidents. Loosely or
 
 [Building an action plan](#building-an-action-plan)  
 [Driving forward delivery](#driving-forward-delivery)  
+[Providing status updates](#providing-status-updates)  
 [Defining a watch out criteria](#defining-a-watch-out-criteria)  
 [Managing an interrupted remediation](#Managing-an-interrupted-remediation)  
 [Delivering the response to an incident](#delivering-the-technical-response-to-an-incident)  
@@ -51,9 +53,9 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 1. Understand organisational priorities
 
-2. Ensure immediate priorities are being actioned
+2. Ensure [immediate priorities](#immediate-priority-checklist) are being actioned
 
-3. Gain situational awareness
+3. [Gain situational awareness](#gaining-situational-awareness)  
 
 4. Assess risks and issues
 
@@ -61,7 +63,7 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 6. Define ways of working and build response tempo 
 
-7. Stand up common platforms for secure communication and collaboration (e.g. Teams, JIRA, Slack, Google Drive)
+7. Stand up common platforms for [secure communication and collaboration](#Common-platform-for-secure-communication-and-collaboration)
 
 8. Establish measurable incident objectives
 
@@ -119,6 +121,20 @@ Organisations time and time again struggle to clearly answer these questions dur
 
 5. Incident response and crisis management plans have been initiated
 
+## Common platform for secure communication and collaboration 
+
+Examples Teams, JIRA, Slack, Google Drive
+
+Need to have a way to: 
+
+1. Share documents / collaborate on document writing 
+
+2. Communicate both with all teams working on the incident (often from multiple companies)
+
+3. Track issues and projects with workflows
+
+4. Centrally store key information 
+
 # Understanding capabilities 
 
 ## Understanding the environment 
@@ -164,7 +180,15 @@ Other questions:
 
 5. What monitoring and detection tools are built on top of these sources of visibility?
 
-6. How are these tools  configured to detect attacker activity? 
+6. How are these tools configured to detect attacker activity? 
+
+7. How are detection alerts tracked? 
+
+8. What processes are there to triage, investigate and respond to detection alerts?
+
+Do you need to stand-up a tool e.g. JIRA to track and manage new detection alerts?
+
+Key that all detection alerts are tracked centrally and moved through a single process. 
 
 # Building a response strategy 
 
@@ -322,6 +346,32 @@ See my other GitHub repo [here](https://github.com/WillOram/cyber-remediation) f
 * Run effective meetings with defined outcomes
 * Ensure situational awareness and document 
 * Track risks and issues 
+
+## Providing status updates
+
+1. When was the first identified evidence of compromise? + delta
+
+2. When was the last identified evidence of compromise? + delta
+
+3. How many systems have been assessed as compromised? + delta
+
+4. How many systems have been assessed as accessed? + delta
+
+5. How many accounts have been assessed as compromised? + delta
+
+6. How many privileged accounts have been assessed as compromised? + delta
+
+7. Endpoing agent coverage + delta
+
+8. What has been done over the status update period? 
+
+9. What is planned for the next status update period? 
+
+10. Risks and issues being tracked + delta
+
+11. Update against key investigation questions 
+
+12. Update against "Eradication event criteria"
 
 ## Defining a watch out criteria 
 
